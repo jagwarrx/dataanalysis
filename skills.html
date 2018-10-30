@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS-Only Nested Dropdown Navigation</title>
+  <script src="https://use.typekit.net/zuk3rol.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script  src="js_skills.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+      <link rel="stylesheet" href="style_skills.css">
+      
+  
+</head>
+
+<body>
+    <ul class="block-menu">
+  <li><a href ="index.html" class="three-d">
+    Home
+    <span aria-hidden="true" class="three-d-box">
+      <span class="front">Home</span>
+      <span class="back">Home</span>
+    </span>
+  </a></li>
+  <li><a href="timeline.html" class="three-d">
+    About
+    <span aria-hidden="true" class="three-d-box">
+      <span class="front">About</span>
+      <span class="back">About</span>
+    </span>
+  </a></li>
+    <li><a href="skills.html" class="three-d">
+    Skills
+    <span aria-hidden="true" class="three-d-box">
+      <span class="front">Skills</span>
+      <span class="back">Skills</span>
+    </span>
+  </a></li>
+  <li><a href="" class="three-d">
+    Work & Play
+    <span aria-hidden="true" class="three-d-box">
+      <span class="front">Work & Play</span>
+      <span class="back">Work & Play</span>
+    </span>
+  </a></li>
+    <li><a href="https://medium.com/@harisubbiah" class="three-d">
+    Blog
+    <span aria-hidden="true" class="three-d-box">
+      <span class="front">Blog</span>
+      <span class="back">Blog</span>
+    </span>
+  </a></li>
+  
+  <li><a href="" class="three-d">
+    Contact
+    <span aria-hidden="true" class="three-d-box">
+      <span class="front">Contact</span>
+      <span class="back">Contact</span>
+    </span>
+  </a></li>
+</ul>
+<br>
+
+  <div id="ML_AI" class="DIV"> ML/AI! </div>
+  <div id="DataScience" class="DIV"> DataScience! </div>
+  <div id="Algorithms" class="DIV"> Algo! </div>
+  <div id="WebDev" class="DIV"> Webdev! </div>
+  <div id="Marketing" class="DIV"> Marketing! </div>
+  <div id="Speaking" class="DIV"> Speaking! </div>
+  <div id="SystemsThinking" class="DIV"> Systems! </div>
+  <div id="25Skills" class="DIV"> Other Skills! </div>
+
+  <main ontouchstart>
+	<h1> Only the Autodidacts are free. </h1>	<br>
+  <nav>
+    <input id='link-top' type='checkbox'>
+    <label class='down' for='link-top'>
+      <h2>Skills</h2>
+    </label>
+    <ul>
+      <li>
+        <input id='link-shop' type='checkbox'>
+        <label class='right' for='link-shop'>Computing</label>	
+        <ul>
+          <li>
+            <a onclick="Algo()">Algorithms</a>
+          </li>
+          <li>
+            <a onclick="Webdev()">Web Development</a>
+          </li>
+          <li>
+            <a onclick="ML_AI()">AI/ML</a>
+          </li>
+          <li>
+            <a onclick="DataScience()">Data Science</a>
+          </li>
+        </ul>
+		<input id='link-mark' type='checkbox'>
+      </li>
+      <li>
+        <a onclick="Marketing()">Marketing</a>
+      </li>
+		<li>
+        <a onclick="Speaking()">Speaking</a>
+      </li>
+		<li>
+        <a onclick="Systems()">Systems Thinking</a>
+      </li>
+      <li>
+        <a onclick="tfskills()">25% Skills</a>
+      </li>
+    </ul>
+  </nav>
+</main>
+  
+  
+
+
+</body>
+
+</html>

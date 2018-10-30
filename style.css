@@ -1,0 +1,18 @@
+body {
+  background: #FFFFF3;
+  color: #f0f0f0;
+}
+
+#messenger {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: monospace;
+  font-size: 20px;
+  color: black;
+  white-space: nowrap;
+  text-shadow: 0 2px 2px rgba(#000, 0.9);
+
+}
